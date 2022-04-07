@@ -1,0 +1,358 @@
+The system is: Windows - 10.0.22581 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 06/04/2022 08:19:01.
+Project "R:\CMake\build\CMakeFiles\3.23.0-rc4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  I:\vsent2022\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  I:\vsent2022\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> R:\CMake\build\CMakeFiles\3.23.0-rc4\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=I:\vsent2022\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "R:\CMake\build\CMakeFiles\3.23.0-rc4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "R:/CMake/build/CMakeFiles/3.23.0-rc4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 06/04/2022 08:19:04.
+Project "R:\CMake\build\CMakeFiles\3.23.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  I:\vsent2022\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  I:\vsent2022\VC\Tools\MSVC\14.31.31103\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> R:\CMake\build\CMakeFiles\3.23.0-rc4\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=I:\vsent2022\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "R:\CMake\build\CMakeFiles\3.23.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "R:/CMake/build/CMakeFiles/3.23.0-rc4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_07f8c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07f8c.dir\Debug\\" /Fd"cmTC_07f8c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_07f8c.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_07f8c.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b3365.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3365.dir\Debug\\" /Fd"cmTC_b3365.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_b3365.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_b3365.exe
+
+
+
+Determining if compiler supports C++ make_unique passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7ece8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  cm_cxx_make_unique.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_7ece8.dir\Debug\\" /Fd"cmTC_7ece8.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd5105 /errorReport:queue R:\CMake\Source\Checks\cm_cxx_make_unique.cxx
+  cmTC_7ece8.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_7ece8.exe
+
+
+
+Determining if compiler supports C++ filesystem passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0c036.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  cm_cxx_filesystem.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_0c036.dir\Debug\\" /Fd"cmTC_0c036.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd5105 /errorReport:queue R:\CMake\Source\Checks\cm_cxx_filesystem.cxx
+  cmTC_0c036.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_0c036.exe
+
+
+
+Determining if the GetProcessMemoryInfo exist passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ea9b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_ea9b8.dir\Debug\\" /Fd"cmTC_ea9b8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_ea9b8.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_ea9b8.exe
+
+
+File R:/CMake/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <psapi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef GetProcessMemoryInfo
+  return ((int*)(&GetProcessMemoryInfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of size_t passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6a80b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SIZEOF_SIZE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6a80b.dir\Debug\\" /Fd"cmTC_6a80b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c
+  cmTC_6a80b.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_6a80b.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7a102.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SIZEOF_TIME_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_7a102.dir\Debug\\" /Fd"cmTC_7a102.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c
+  cmTC_7a102.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_7a102.exe
+
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_787af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CurlTests.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_787af.dir\Debug\\" /Fd"cmTC_787af.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\Utilities\cmcurl\CMake\CurlTests.c
+  cmTC_787af.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_787af.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_78f6c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CurlTests.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_C99 /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_78f6c.dir\Debug\\" /Fd"cmTC_78f6c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\Utilities\cmcurl\CMake\CurlTests.c
+  cmTC_78f6c.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_78f6c.exe
+
+
+Determining size of off_t passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_60ca9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SIZEOF_OFF_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_60ca9.dir\Debug\\" /Fd"cmTC_60ca9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c
+  cmTC_60ca9.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_60ca9.exe
+
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f5349.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SIZEOF_CURL_OFF_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /IR:\CMake\Utilities\cmcurl\include /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f5349.dir\Debug\\" /Fd"cmTC_f5349.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c
+  cmTC_f5349.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_f5349.exe
+
+
+
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e7b8f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /IR:\CMake\Utilities\cmcurl\include /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e7b8f.dir\Debug\\" /Fd"R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_e7b8f.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  cmTC_e7b8f.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_e7b8f.lib
+
+
+
+Performing C SOURCE FILE Test SAFE_TO_DEFINE_EXTENSIONS succeeded with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_684fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SAFE_TO_DEFINE_EXTENSIONS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_684fa.dir\Debug\\" /Fd"cmTC_684fa.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\src.c
+  cmTC_684fa.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_684fa.exe
+
+
+Source file was:
+#define __EXTENSIONS__ 1
+   
+   int main() { return 0;}
+Determining if the function _get_timezone exists passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_765c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_get_timezone /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_765c8.dir\Debug\\" /Fd"cmTC_765c8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+  cmTC_765c8.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_765c8.exe
+
+
+
+Determining size of dev_t passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_08cdc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  DEV_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_08cdc.dir\Debug\\" /Fd"cmTC_08cdc.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\DEV_T.c
+  cmTC_08cdc.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_08cdc.exe
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_11aea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  OFF_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_11aea.dir\Debug\\" /Fd"cmTC_11aea.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\OFF_T.c
+  cmTC_11aea.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_11aea.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d4f07.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SIZE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_d4f07.dir\Debug\\" /Fd"cmTC_d4f07.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SIZE_T.c
+  cmTC_d4f07.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_d4f07.exe
+
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_224b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SIZEOF_WCHAR_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_224b5.dir\Debug\\" /Fd"cmTC_224b5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c
+  cmTC_224b5.vcxproj -> R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_224b5.exe
+
+
+

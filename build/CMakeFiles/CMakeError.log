@@ -1,0 +1,914 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a60b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_a60b1.dir\Debug\\" /Fd"cmTC_a60b1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+R:\CMake\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_a60b1.vcxproj]
+
+
+
+Checking whether C compiler has ssize_t in unistd.h failed to compile with the following output:
+Change Dir: R:/CMake/build/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_99f4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  kwsysPlatformTestsC.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_C_HAS_SSIZE_T /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_99f4e.dir\Debug\\" /Fd"cmTC_99f4e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\Source\kwsys\kwsysPlatformTestsC.c
+R:\CMake\Source\kwsys\kwsysPlatformTestsC.c(46,1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [R:\CMake\build\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_99f4e.vcxproj]
+
+
+
+Checking whether <ext/stdio_filebuf.h> is available failed to compile with the following output:
+Change Dir: R:/CMake/build/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0ac59.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  kwsysPlatformTestsCXX.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_0ac59.dir\Debug\\" /Fd"cmTC_0ac59.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd5105 /errorReport:queue R:\CMake\Source\kwsys\kwsysPlatformTestsCXX.cxx
+R:\CMake\Source\kwsys\kwsysPlatformTestsCXX.cxx(169,12): fatal error C1083: Cannot open include file: 'ext/stdio_filebuf.h': No such file or directory [R:\CMake\build\Source\kwsys\CMakeFiles\CMakeTmp\cmTC_0ac59.vcxproj]
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f0b3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  HAVE_LIBGEN_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f0b3b.dir\Debug\\" /Fd"cmTC_f0b3b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c
+R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c(14,1): fatal error C1083: Cannot open include file: 'libgen.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_f0b3b.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file linux/tcp.h exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0917e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckIncludeFile.c
+R:\CMake\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'linux/tcp.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_0917e.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_0917e.dir\Debug\\" /Fd"cmTC_0917e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_28c24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SIZEOF_SSIZE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_28c24.dir\Debug\\" /Fd"cmTC_28c24.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c
+R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(28,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_28c24.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(29,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_28c24.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(30,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_28c24.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(31,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_28c24.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(32,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_28c24.vcxproj]
+
+
+R:/CMake/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the basename exist failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9d752.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_9d752.dir\Debug\\" /Fd"cmTC_9d752.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+R:\CMake\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,27): error C2065: 'basename': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_9d752.vcxproj]
+
+
+File R:/CMake/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_FILE_OFFSET_BITS failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6471c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CurlTests.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FILE_OFFSET_BITS /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6471c.dir\Debug\\" /Fd"cmTC_6471c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\Utilities\cmcurl\CMake\CurlTests.c
+R:\CMake\Utilities\cmcurl\CMake\CurlTests.c(218,23): warning C4293: '<<': shift count negative or too big, undefined behavior [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_6471c.vcxproj]
+R:\CMake\Utilities\cmcurl\CMake\CurlTests.c(219,27): warning C4293: '<<': shift count negative or too big, undefined behavior [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_6471c.vcxproj]
+R:\CMake\Utilities\cmcurl\CMake\CurlTests.c(220,31): error C2118: negative subscript [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_6471c.vcxproj]
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ba826.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CurlTests.c
+R:\CMake\Utilities\cmcurl\CMake\CurlTests.c(495,32): error C2608: invalid token '...' in macro parameter list [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_ba826.vcxproj]
+R:\CMake\Utilities\cmcurl\CMake\CurlTests.c(496,32): error C2608: invalid token '...' in macro parameter list [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_ba826.vcxproj]
+R:\CMake\Utilities\cmcurl\CMake\CurlTests.c(510,14): error C2198: 'fun3': too few arguments for call [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_ba826.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_GCC /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_ba826.dir\Debug\\" /Fd"cmTC_ba826.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\Utilities\cmcurl\CMake\CurlTests.c
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f4803.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CurlTests.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CLOCK_GETTIME_MONOTONIC /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f4803.dir\Debug\\" /Fd"cmTC_f4803.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\Utilities\cmcurl\CMake\CurlTests.c
+R:\CMake\Utilities\cmcurl\CMake\CurlTests.c(460,32): error C2065: 'CLOCK_MONOTONIC': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_f4803.vcxproj]
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_49dd7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_49dd7.dir\Debug\\" /Fd"cmTC_49dd7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+R:\CMake\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_49dd7.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_635cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_635cf.dir\Debug\\" /Fd"cmTC_635cf.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+R:\CMake\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_635cf.vcxproj]
+
+
+
+Performing C SOURCE FILE Test HAVE_DIRENT_H failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_64537.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DIRENT_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_64537.dir\Debug\\" /Fd"cmTC_64537.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\src.c
+R:\CMake\build\CMakeFiles\CMakeTmp\src.c(2,1): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_64537.vcxproj]
+
+
+Source file was:
+
+#include <dirent.h>
+
+int main()
+{
+   static DIR * tmp;
+   if (sizeof(tmp))
+      return 0;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SYS_NDIR_H failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4cf1e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  src.c
+R:\CMake\build\CMakeFiles\CMakeTmp\src.c(2,1): fatal error C1083: Cannot open include file: 'sys/ndir.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_4cf1e.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SYS_NDIR_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_4cf1e.dir\Debug\\" /Fd"cmTC_4cf1e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\src.c
+
+
+Source file was:
+
+#include <sys/ndir.h>
+
+int main()
+{
+   static DIR * tmp;
+   if (sizeof(tmp))
+      return 0;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_NDIR_H failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0e394.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_NDIR_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_0e394.dir\Debug\\" /Fd"cmTC_0e394.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\src.c
+R:\CMake\build\CMakeFiles\CMakeTmp\src.c(2,1): fatal error C1083: Cannot open include file: 'ndir.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_0e394.vcxproj]
+
+
+Source file was:
+
+#include <ndir.h>
+
+int main()
+{
+   static DIR * tmp;
+   if (sizeof(tmp))
+      return 0;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SYS_DIR_H failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_51d51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  src.c
+R:\CMake\build\CMakeFiles\CMakeTmp\src.c(2,1): fatal error C1083: Cannot open include file: 'sys/dir.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_51d51.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SYS_DIR_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_51d51.dir\Debug\\" /Fd"cmTC_51d51.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\src.c
+
+
+Source file was:
+
+#include <sys/dir.h>
+
+int main()
+{
+   static DIR * tmp;
+   if (sizeof(tmp))
+      return 0;
+  return 0;
+}
+
+Determining if files sys/types.h;ctype.h;direct.h;errno.h;fcntl.h;io.h;limits.h;locale.h;memory.h;process.h;pthread.h exist failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a306e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  HAVE_PTHREAD_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_a306e.dir\Debug\\" /Fd"cmTC_a306e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_PTHREAD_H.c
+R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_PTHREAD_H.c(12,1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_a306e.vcxproj]
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <direct.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <memory.h>
+#include <process.h>
+#include <pthread.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;direct.h;errno.h;fcntl.h;io.h;limits.h;locale.h;memory.h;process.h;signal.h;stdarg.h;stdlib.h;string.h;sys/cdefs.h exist failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_89148.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  HAVE_SYS_CDEFS_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_89148.dir\Debug\\" /Fd"cmTC_89148.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_CDEFS_H.c
+R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_CDEFS_H.c(16,1): fatal error C1083: Cannot open include file: 'sys/cdefs.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_89148.vcxproj]
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <direct.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <memory.h>
+#include <process.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/cdefs.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;direct.h;errno.h;fcntl.h;io.h;limits.h;locale.h;memory.h;process.h;signal.h;stdarg.h;stdlib.h;string.h;sys/param.h exist failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6b444.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  HAVE_SYS_PARAM_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6b444.dir\Debug\\" /Fd"cmTC_6b444.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c
+R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(16,1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_6b444.vcxproj]
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <direct.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <memory.h>
+#include <process.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;direct.h;errno.h;fcntl.h;io.h;limits.h;locale.h;memory.h;process.h;signal.h;stdarg.h;stdlib.h;string.h;sys/stat.h;sys/time.h exist failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f3547.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  HAVE_SYS_TIME_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f3547.dir\Debug\\" /Fd"cmTC_f3547.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(17,1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_f3547.vcxproj]
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <direct.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <memory.h>
+#include <process.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;ctype.h;direct.h;errno.h;fcntl.h;io.h;limits.h;locale.h;memory.h;process.h;signal.h;stdarg.h;stdlib.h;string.h;sys/stat.h;sys/utime.h;time.h;utime.h exist failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6757d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  HAVE_UTIME_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6757d.dir\Debug\\" /Fd"cmTC_6757d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_UTIME_H.c
+R:\CMake\build\CMakeFiles\CheckIncludeFiles\HAVE_UTIME_H.c(19,1): fatal error C1083: Cannot open include file: 'utime.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_6757d.vcxproj]
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <ctype.h>
+#include <direct.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <memory.h>
+#include <process.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <sys/utime.h>
+#include <time.h>
+#include <utime.h>
+
+
+int main(void){return 0;}
+
+Determining if the function mkstemp exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6efdb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mkstemp /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6efdb.dir\Debug\\" /Fd"cmTC_6efdb.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol mkstemp referenced in function main [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_6efdb.vcxproj]
+R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_6efdb.exe : fatal error LNK1120: 1 unresolved externals [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_6efdb.vcxproj]
+
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_43178.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_43178.dir\Debug\\" /Fd"cmTC_43178.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_43178.vcxproj]
+R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_43178.exe : fatal error LNK1120: 1 unresolved externals [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_43178.vcxproj]
+
+
+
+Determining if the function vprintf exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fe41b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vprintf /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_fe41b.dir\Debug\\" /Fd"cmTC_fe41b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol vprintf referenced in function main [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_fe41b.vcxproj]
+R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_fe41b.exe : fatal error LNK1120: 1 unresolved externals [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_fe41b.vcxproj]
+
+
+
+Determining if the function wmemcmp exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e8f74.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wmemcmp /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e8f74.dir\Debug\\" /Fd"cmTC_e8f74.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol wmemcmp referenced in function main [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_e8f74.vcxproj]
+R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_e8f74.exe : fatal error LNK1120: 1 unresolved externals [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_e8f74.vcxproj]
+
+
+
+Determining if the function wmemcpy exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4f6ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wmemcpy /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_4f6ce.dir\Debug\\" /Fd"cmTC_4f6ce.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol wmemcpy referenced in function main [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_4f6ce.vcxproj]
+R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_4f6ce.exe : fatal error LNK1120: 1 unresolved externals [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_4f6ce.vcxproj]
+
+
+
+Determining if the function wmemmove exists failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e5e24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wmemmove /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e5e24.dir\Debug\\" /Fd"cmTC_e5e24.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol wmemmove referenced in function main [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_e5e24.vcxproj]
+R:\CMake\build\CMakeFiles\CMakeTmp\Debug\cmTC_e5e24.exe : fatal error LNK1120: 1 unresolved externals [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_e5e24.vcxproj]
+
+
+
+Performing C SOURCE FILE Test TIME_WITH_SYS_TIME failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fcb38.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  src.c
+R:\CMake\build\CMakeFiles\CMakeTmp\src.c(3,1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_fcb38.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D TIME_WITH_SYS_TIME /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_fcb38.dir\Debug\\" /Fd"cmTC_fcb38.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CMakeTmp\src.c
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/time.h>
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_sec);
+  return 0;
+}
+
+Determining size of mode_t failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2cff0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  MODE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2cff0.dir\Debug\\" /Fd"cmTC_2cff0.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\MODE_T.c
+R:\CMake\build\CMakeFiles\CheckTypeSize\MODE_T.c(29,12): error C2065: 'mode_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_2cff0.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\MODE_T.c(30,12): error C2065: 'mode_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_2cff0.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\MODE_T.c(31,12): error C2065: 'mode_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_2cff0.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\MODE_T.c(32,12): error C2065: 'mode_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_2cff0.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\MODE_T.c(33,12): error C2065: 'mode_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_2cff0.vcxproj]
+
+
+R:/CMake/build/CMakeFiles/CheckTypeSize/MODE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(mode_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cadc0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  SSIZE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_cadc0.dir\Debug\\" /Fd"cmTC_cadc0.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\SSIZE_T.c
+R:\CMake\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(29,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_cadc0.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(30,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_cadc0.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(31,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_cadc0.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(32,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_cadc0.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(33,12): error C2065: 'ssize_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_cadc0.vcxproj]
+
+
+R:/CMake/build/CMakeFiles/CheckTypeSize/SSIZE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of pid_t failed with the following output:
+Change Dir: R:/CMake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):I:/vsent2022/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_47df6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.2.0-preview-22116-01+7d926d7ab for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31105 for x64
+  PID_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_47df6.dir\Debug\\" /Fd"cmTC_47df6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd5105 /errorReport:queue R:\CMake\build\CMakeFiles\CheckTypeSize\PID_T.c
+R:\CMake\build\CMakeFiles\CheckTypeSize\PID_T.c(29,12): error C2065: 'pid_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_47df6.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\PID_T.c(30,12): error C2065: 'pid_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_47df6.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\PID_T.c(31,12): error C2065: 'pid_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_47df6.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\PID_T.c(32,12): error C2065: 'pid_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_47df6.vcxproj]
+R:\CMake\build\CMakeFiles\CheckTypeSize\PID_T.c(33,12): error C2065: 'pid_t': undeclared identifier [R:\CMake\build\CMakeFiles\CMakeTmp\cmTC_47df6.vcxproj]
+
+
+R:/CMake/build/CMakeFiles/CheckTypeSize/PID_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(pid_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Looking for a Fortran compiler failed with the following output:
+-- The Fortran compiler identification is unknown
+CMake Warning (dev) at C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake:220 (find_program):
+  Policy CMP0109 is not set: find_program() requires permission to execute
+  but not to read.  Run "cmake --help-policy CMP0109" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The file
+
+    //wsl.localhost/Ubuntu/usr/bin/mt
+
+  is executable but not readable.  CMake is ignoring it for compatibility.
+Call Stack (most recent call first):
+  C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeDetermineFortranCompiler.cmake:272 (include)
+  CMakeLists.txt:2 (project)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake:220 (find_program):
+  Policy CMP0109 is not set: find_program() requires permission to execute
+  but not to read.  Run "cmake --help-policy CMP0109" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The file
+
+    //wsl.localhost/Ubuntu/lib
+
+  is executable but not readable.  CMake is ignoring it for compatibility.
+Call Stack (most recent call first):
+  C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeDetermineFortranCompiler.cmake:272 (include)
+  CMakeLists.txt:2 (project)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_Fortran_COMPILER could be found.
+
+
+
+-- Configuring incomplete, errors occurred!
+See also "R:/CMake/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeOutput.log".
+See also "R:/CMake/build/Tests/CMakeFiles/CheckFortran/CMakeFiles/CMakeError.log".
+

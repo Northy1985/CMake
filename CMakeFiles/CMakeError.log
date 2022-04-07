@@ -1,0 +1,205 @@
+Determining if the environ exist failed with the following output:
+Change Dir: /mnt/r/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a729/fast && make  -f CMakeFiles/cmTC_7a729.dir/build.make CMakeFiles/cmTC_7a729.dir/build
+make[1]: Entering directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a729.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -std=gnu11 -o CMakeFiles/cmTC_7a729.dir/CheckSymbolExists.c.o -c /mnt/r/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/mnt/r/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/mnt/r/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘environ’ undeclared (first use in this function)
+    8 |   return ((int*)(&environ))[argc];
+      |                   ^~~~~~~
+/mnt/r/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_7a729.dir/build.make:78: CMakeFiles/cmTC_7a729.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_7a729/fast] Error 2
+
+
+File /mnt/r/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef environ
+  return ((int*)(&environ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /mnt/r/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b723a/fast && make  -f CMakeFiles/cmTC_b723a.dir/build.make CMakeFiles/cmTC_b723a.dir/build
+make[1]: Entering directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b723a.dir/src.c.o
+/usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -o CMakeFiles/cmTC_b723a.dir/src.c.o -c /mnt/r/cmake/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b723a
+/mnt/r/cmake/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_b723a.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_b723a.dir/src.c.o -o cmTC_b723a 
+/usr/bin/ld: CMakeFiles/cmTC_b723a.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b723a.dir/build.make:99: cmTC_b723a] Error 1
+make[1]: Leaving directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_b723a/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/r/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5eb43/fast && make  -f CMakeFiles/cmTC_5eb43.dir/build.make CMakeFiles/cmTC_5eb43.dir/build
+make[1]: Entering directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5eb43.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu11 -o CMakeFiles/cmTC_5eb43.dir/CheckFunctionExists.c.o -c /mnt/r/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5eb43
+/mnt/r/cmake/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_5eb43.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_5eb43.dir/CheckFunctionExists.c.o -o cmTC_5eb43  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5eb43.dir/build.make:99: cmTC_5eb43] Error 1
+make[1]: Leaving directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_5eb43/fast] Error 2
+
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /mnt/r/cmake/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3321f/fast && make  -f CMakeFiles/cmTC_3321f.dir/build.make CMakeFiles/cmTC_3321f.dir/build
+make[1]: Entering directory '/mnt/r/cmake/Source/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3321f.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/g++ -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -std=gnu++17 -o CMakeFiles/cmTC_3321f.dir/kwsysPlatformTestsCXX.cxx.o -c /mnt/r/cmake/Source/kwsys/kwsysPlatformTestsCXX.cxx
+/mnt/r/cmake/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/mnt/r/cmake/Source/kwsys/kwsysPlatformTestsCXX.cxx:53:13: error: ‘environ’ was not declared in this scope; did you mean ‘union’?
+   53 |   char* e = environ[0];
+      |             ^~~~~~~
+      |             union
+make[1]: *** [CMakeFiles/cmTC_3321f.dir/build.make:78: CMakeFiles/cmTC_3321f.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/mnt/r/cmake/Source/kwsys/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_3321f/fast] Error 2
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: /mnt/r/cmake/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f467d/fast && make  -f CMakeFiles/cmTC_f467d.dir/build.make CMakeFiles/cmTC_f467d.dir/build
+make[1]: Entering directory '/mnt/r/cmake/Source/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f467d.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/g++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -std=gnu++17 -o CMakeFiles/cmTC_f467d.dir/kwsysPlatformTestsCXX.cxx.o -c /mnt/r/cmake/Source/kwsys/kwsysPlatformTestsCXX.cxx
+/mnt/r/cmake/Source/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/mnt/r/cmake/Source/kwsys/kwsysPlatformTestsCXX.cxx:26:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   26 |   (void)stat1.st_mtimespec.tv_sec;
+      |               ^~~~~~~~~~~~
+/mnt/r/cmake/Source/kwsys/kwsysPlatformTestsCXX.cxx:27:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   27 |   (void)stat1.st_mtimespec.tv_nsec;
+      |               ^~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_f467d.dir/build.make:78: CMakeFiles/cmTC_f467d.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/mnt/r/cmake/Source/kwsys/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_f467d/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_ADDR failed with the following output:
+Change Dir: /mnt/r/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_84805/fast && make  -f CMakeFiles/cmTC_84805.dir/build.make CMakeFiles/cmTC_84805.dir/build
+make[1]: Entering directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make[1]: *** INTERNAL: readdir: Cannot allocate memory.  Stop.
+make[1]: Leaving directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_84805/fast] Error 2
+
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_addr);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID failed with the following output:
+Change Dir: /mnt/r/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_32ce0/fast && make  -f CMakeFiles/cmTC_32ce0.dir/build.make CMakeFiles/cmTC_32ce0.dir/build
+make[1]: Entering directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make[1]: *** INTERNAL: readdir: Cannot allocate memory.  Stop.
+make[1]: Leaving directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_32ce0/fast] Error 2
+
+
+Source file was:
+
+#include <netinet/in.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+  return 0;
+}
+
+Determining if the function connect exists in the socket;dl failed with the following output:
+Change Dir: /mnt/r/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c6fc/fast && make  -f CMakeFiles/cmTC_5c6fc.dir/build.make CMakeFiles/cmTC_5c6fc.dir/build
+make[1]: Entering directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c6fc.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -w -DCHECK_FUNCTION_EXISTS=connect -std=gnu11 -o CMakeFiles/cmTC_5c6fc.dir/CheckFunctionExists.c.o -c /mnt/r/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c6fc
+/mnt/r/cmake/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_5c6fc.dir/link.txt --verbose=1
+/usr/bin/gcc  -w -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_5c6fc.dir/CheckFunctionExists.c.o -o cmTC_5c6fc  -lsocket -ldl 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5c6fc.dir/build.make:99: cmTC_5c6fc] Error 1
+make[1]: Leaving directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_5c6fc/fast] Error 2
+
+
+
+Determining if the function recv exists in the network;dl failed with the following output:
+Change Dir: /mnt/r/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_47202/fast && make  -f CMakeFiles/cmTC_47202.dir/build.make CMakeFiles/cmTC_47202.dir/build
+make[1]: Entering directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47202.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -w -DCHECK_FUNCTION_EXISTS=recv -std=gnu11 -o CMakeFiles/cmTC_47202.dir/CheckFunctionExists.c.o -c /mnt/r/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_47202
+/mnt/r/cmake/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_47202.dir/link.txt --verbose=1
+/usr/bin/gcc  -w -DCHECK_FUNCTION_EXISTS=recv CMakeFiles/cmTC_47202.dir/CheckFunctionExists.c.o -o cmTC_47202  -lnetwork -ldl 
+/usr/bin/ld: cannot find -lnetwork
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_47202.dir/build.make:99: cmTC_47202] Error 1
+make[1]: Leaving directory '/mnt/r/cmake/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_47202/fast] Error 2
+
+
+
